@@ -7,13 +7,13 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class AirRoute implements Comparable <AirRoute> {
+public class AirRoute implements Comparable<AirRoute> {
 
     private int id;
     private int price;
     private String airportFrom;
     private String airportTo;
-    private int travelTimeMin;
+    private int travelTimeMinutes;
 
 
     @Override
